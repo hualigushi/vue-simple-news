@@ -1,0 +1,21 @@
+export default {
+  showHeader:({commit})=>{
+    commit('showHeader');
+  },
+  hideHeader:({commit})=>{
+    commit('hideHeader');
+  },
+  showLoading:({commit})=>{
+    commit('showLoading');
+  },
+  hideLoading:({commit})=>{
+    commit('hideLoading');
+  },
+  /*底部条*/
+  showFooter:({commit})=>{
+    commit('showFooter')
+  },
+  hideFooter:({commit})=>{
+    commit('hideFooter');
+  }
+}
